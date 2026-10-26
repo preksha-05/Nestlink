@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NestLink | Ambient Elderly Monitoring System</title>
+    <meta
+      name="description"
+      content="NestLink is a discreet ambient elderly monitoring system that uses sensor-enabled household objects and light-based alerts."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#cover" aria-label="NestLink home">
+        <img src="file.svg" alt="" />
+        <span>NestLink</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#research">Research</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#system">System</a>
+      </nav>
+      <div class="progress-wrap" aria-hidden="true">
+        <span class="progress-bar"></span>
+      </div>
+    </header>
+
+    <main>
+      <section class="slide hero" id="cover">
+        <div class="hero-grid reveal">
+          <div class="institution">
+            <span>National Institute of Design</span>
+            <span>Problem Solving</span>
+          </div>
+          <div class="hero-title">
+            <img src="file.svg" alt="" class="hero-mark" />
+            <h1>NestLink</h1>
+          </div>
+          <div class="author">
+            <span>Preksha Anand</span>
+            <span>Process to product concept</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide process-start image-slide" id="research">
+        <div class="section-shell reveal">
+          <div class="overlay-panel">
+            <div class="section-label">01 / How it started</div>
+            <h2>From keywords to a niche system.</h2>
+            <p>
+              The process moved from initial brainstorming and broad research to systematically
+              narrowing down into one targeted problem space.
+            </p>
+          </div>
+          <aside class="image-caption" aria-label="Background image context">
+            <span>Brainstorming process</span>
+            <p>Early notes, clustering, and research framing.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide colored lime">
+        <div class="section-shell reveal">
+          <div class="section-label">02 / Main area</div>
+          <div class="statement-row">
+            <h2>The early direction explored retirement, with emphasis on the transition from structured work life to a more open, unstructured phase.</h2>
+            <p>
+              The direction moved away from retirement to care, connection, and the conflict
+              between the retiree and their kins.
+            </p>
+          </div>
+          <div class="brick-collage" aria-label="Retirement research keyword collage">
+            <div class="brick-cloud">
+              <span class="brick sm">Timepass</span>
+              <span class="brick md">Physical Health</span>
+              <span class="brick md">Overthinking</span>
+              <span class="brick md">Loneliness</span>
+              <span class="brick sm">Care</span>
+              <span class="brick md">Connection</span>
+              <span class="brick lg">Family Conflict</span>
+              <span class="brick md">Unstructured Time</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="section-shell reveal">
+          <div class="section-label">03 / Background and context</div>
+          <div class="context-block">
+            <h2>India has over 140 million citizens above the age of 60.</h2>
+            <p>
+              Nuclear family structures and migration for work mean many elderly parents live
+              away from their adult children. Existing solutions often depend on cameras,
+              trackers, or behavior change from the parent, creating friction where dignity and
+              trust are essential.
+            </p>
+          </div>
+          <div class="context-notes">
+            <span>Aging in place</span>
+            <span>Remote caregiving</span>
+            <span>Privacy sensitivity</span>
+            <span>Low cognitive load</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide colored lilac">
+        <div class="section-shell reveal">
+          <div class="section-label">04 / Interview findings</div>
+          <div class="two-column align-start">
+            <div>
+              <h2>Caregivers wanted awareness without becoming surveillance operators.</h2>
+              <p>
+                Interview synthesis pointed to anxiety, distance, reluctance to ask for help,
+                and the emotional weight of constant checking. The clearest opportunity was a
+                system that stays calm until something matters.
+              </p>
+            </div>
+            <div class="insight-grid">
+              <article>
+                <span>Insight 01</span>
+                <h3>Safety cannot feel like control.</h3>
+              </article>
+              <article>
+                <span>Insight 02</span>
+                <h3>Parents resist tools that mark them as dependent.</h3>
+              </article>
+              <article>
+                <span>Insight 03</span>
+                <h3>Adult children need fewer check-ins, not more dashboards.</h3>
+              </article>
+              <article>
+                <span>Insight 04</span>
+                <h3>Emergency signals need priority over routine data.</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" id="problem">
+        <div class="section-shell reveal">
+          <div class="section-label">05 / Final problem context</div>
+          <div class="problem-card problem-narrative">
+            <h2>Millions of distant caregivers in India worry about their aging parents every single day &mdash; but every tool built to help them either surveils the parent or gets abandoned within weeks.</h2>
+            <p>
+              Cameras feel like control. Wearables get forgotten. More calls burden the very
+              person you're trying to protect.
+            </p>
+            <p>
+              So parents say "sab theek hai" &mdash; even when it isn't.
+            </p>
+            <p>
+              The distant caregiver stays anxious. The parent stays silent. The gap grows.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide colored cream">
+        <div class="section-shell reveal">
+          <div class="section-label">06 / How might we</div>
+          <div class="hmw-single">
+            <h2>How might we enable adult children to stay meaningfully aware of their aging parents' well-being, without introducing surveillance, dependency, or behavioral change for the parents?</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide hmw-process">
+        <div class="section-shell reveal">
+          <figure class="research-board">
+            <img src="Frame 14.png" alt="Research synthesis board with personas, empathy maps, affinity mapping, and interview findings" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="section-shell reveal">
+          <div class="section-label">07 / Stakeholder mapping</div>
+          <div class="stakeholder-map">
+            <article>
+              <span>Primary</span>
+              <h3>Elderly users</h3>
+              <p>Need dignity, autonomy, low effort, and familiar objects.</p>
+            </article>
+            <div class="map-core">
+              <strong>NestLink</strong>
+              <span>ambient care network</span>
+            </div>
+            <article>
+              <span>Secondary</span>
+              <h3>Family members</h3>
+              <p>Need passive reassurance and immediate escalation when risk appears.</p>
+            </article>
+            <article>
+              <span>Support</span>
+              <h3>Caregivers</h3>
+              <p>Need interpretable signals without constant manual observation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="section-shell reveal">
+          <div class="section-label">08 / Solution ideation</div>
+          <div class="ideation-showcase">
+            <div class="ideation-collage" aria-label="Product design phase image collage">
+              <figure class="ideation-card tall">
+                <img src="IdeationImages/web/ideation-01.jpg" alt="Ideation sketch from the product design phase" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-02.jpg" alt="Product form ideation sketch" />
+              </figure>
+              <figure class="ideation-card wide">
+                <img src="IdeationImages/web/ideation-03.jpg" alt="Exploratory product design drawing" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-04.jpg" alt="Receiver device concept sketch" />
+              </figure>
+              <figure class="ideation-card wide">
+                <img src="IdeationImages/web/ideation-05.jpg" alt="Product design process notes and sketches" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-06.jpg" alt="Object form exploration sketch" />
+              </figure>
+              <figure class="ideation-card tall">
+                <img src="IdeationImages/web/ideation-07.jpg" alt="Form study from ideation phase" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-08.jpg" alt="Final ideation sketch detail" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-09.jpg" alt="Additional product sketch from ideation phase" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-10.jpg" alt="Ideation process image showing product form exploration" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-11.jpg" alt="Concept sketch from product design exploration" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-12.jpg" alt="Product system ideation drawing" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-13.jpg" alt="Object design ideation image" />
+              </figure>
+              <figure class="ideation-card">
+                <img src="IdeationImages/web/ideation-14.jpg" alt="Final product design phase image" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide solution" id="solution">
+        <div class="section-shell reveal">
+          <div class="section-label">09 / Final solution</div>
+          <div class="solution-hero">
+            <h2>NestLink transforms everyday household objects into a discreet care network.</h2>
+            <p>
+              It replaces wearables and cameras with passive sensing objects that communicate
+              through a screenless ambient receiver.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide solution-process">
+        <div class="section-shell reveal">
+          <figure class="process-collage">
+            <img src="Frame 12.png" alt="NestLink prototype and electronics process collage" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide colored pink" id="system">
+        <div class="section-shell reveal">
+          <div class="section-label">10 / Forms and product system</div>
+          <div class="product-grid">
+            <article>
+              <figure class="product-photo">
+                <img src="ProductImage/web/cup.jpg" alt="Smart cup prototype" />
+              </figure>
+              <h3>Smart Cup</h3>
+              <p>Captures biometric snapshots through natural touch during hydration.</p>
+            </article>
+            <article>
+              <figure class="product-photo">
+                <img src="ProductImage/web/doorknob.jpg" alt="Smart door knob prototype" />
+              </figure>
+              <h3>Smart Door Knob</h3>
+              <p>Detects movement patterns through routine door interactions.</p>
+            </article>
+            <article>
+              <figure class="product-photo">
+                <img src="ProductImage/web/artifact.jpg" alt="Sound artifact prototype" />
+              </figure>
+              <h3>Sound Artifact</h3>
+              <p>Recognizes abnormal sounds or distress keywords on threshold events.</p>
+            </article>
+            <article>
+              <figure class="product-photo">
+                <img src="ProductImage/web/receiver.jpg" alt="Central receiver prototype with warm light" />
+              </figure>
+              <h3>Central Receiver</h3>
+              <p>Aggregates signals and expresses priority through light and sound.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="section-shell reveal">
+          <div class="section-label">11 / State Diagram</div>
+          <figure class="state-diagram">
+            <img src="state.jpeg" alt="NestLink receiver state diagram showing ambient feedback through light and sound" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="section-shell reveal">
+          <div class="section-label">12 / Features</div>
+          <div class="feature-list">
+            <article>
+              <span>Passive monitoring</span>
+              <p>Data is collected through ordinary interactions, not explicit check-ins.</p>
+            </article>
+            <article>
+              <span>No wearables</span>
+              <p>The elderly user does not need to charge, wear, or remember a device.</p>
+            </article>
+            <article>
+              <span>Ambient feedback</span>
+              <p>Light patterns communicate system state with low cognitive load.</p>
+            </article>
+            <article>
+              <span>Priority alerts</span>
+              <p>Critical health and emergency events override routine signals.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide ikea-slide">
+        <div class="section-shell reveal">
+          <div class="section-label">13 / Future Scope</div>
+          <figure class="ikea-image">
+            <img src="IkeaNestlink.png" alt="NestLink product ecosystem styled as an Ikea collaboration" />
+          </figure>
+          <h2>Ikea x NestLink</h2>
+        </div>
+      </section>
+
+      <section class="slide closing">
+        <div class="section-shell reveal">
+          <img src="file.svg" alt="" class="closing-mark" />
+          <h2>Designed for awareness without intrusion.</h2>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
