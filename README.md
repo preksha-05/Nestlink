@@ -8,7 +8,7 @@ sense quietly in the background. A lamp on the family member's desk turns
 that into warm, glanceable light. There is no screen, camera or wearable, so
 reassurance never feels like surveillance.
 
-🔗 **Live site:** https://YOUR-USERNAME.github.io/nestlink/
+🔗 **Live site:** (https://preksha-05.github.io/Nestlink/)
 
 ## About the project
 
