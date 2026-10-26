@@ -21,6 +21,7 @@
         <a href="#problem">Problem</a>
         <a href="#solution">Solution</a>
         <a href="#system">System</a>
+        <a href="#testing">Testing</a>
       </nav>
       <div class="progress-wrap" aria-hidden="true">
         <span class="progress-bar"></span>
@@ -357,6 +358,56 @@
         </div>
       </section>
 
+      <section class="slide testing-docs" id="testing">
+        <div class="section-shell reveal">
+          <div class="section-label">14 / Documentation while testing</div>
+          <div class="testing-intro">
+            <h2>Building, breaking and testing the receiver.</h2>
+            <p>
+              Notes from the prototyping bench: wiring the ESP32 and sensor modules, testing
+              light diffusion through the printed shell, and checking how the receiver's colour
+              states read on a real desk.
+            </p>
+          </div>
+
+          <figure class="testing-video">
+            <video
+              src="TestingDocs/testing-video.mp4"
+              poster="TestingDocs/testing-video-poster.jpg"
+              controls
+              muted
+              loop
+              playsinline
+              preload="metadata"
+            ></video>
+            <figcaption>Live test: the receiver changing light states while in use on the desk.</figcaption>
+          </figure>
+
+          <div class="testing-grid">
+            <figure>
+              <img src="TestingDocs/testing-01-workbench.jpg" alt="Workbench with ESP32 board, charging module, sensor board and printed enclosures during assembly" loading="lazy" />
+              <figcaption><span>01</span> Bench setup: ESP32, charging module, sensor board and printed housings.</figcaption>
+            </figure>
+            <figure>
+              <img src="TestingDocs/testing-02-esp32-housing.jpg" alt="ESP32 development board fitted inside a round white 3D-printed housing with sensor wires" loading="lazy" />
+              <figcaption><span>02</span> Fitting the ESP32 and wiring inside the round printed housing.</figcaption>
+            </figure>
+            <figure>
+              <img src="TestingDocs/testing-03-diffuser-purple.jpg" alt="Translucent printed diffuser held in hand, glowing purple from LEDs inside" loading="lazy" />
+              <figcaption><span>03</span> Diffusion test: how the LED strip spreads through the translucent shell.</figcaption>
+            </figure>
+            <figure>
+              <img src="TestingDocs/testing-04-diffuser-warm.jpg" alt="Receiver top glowing warm orange beside its open base with microcontroller" loading="lazy" />
+              <figcaption><span>04</span> Warm-light state tested with the base open and the board exposed.</figcaption>
+            </figure>
+            <figure>
+              <img src="TestingDocs/testing-05-receiver-desk.jpg" alt="Assembled cube receiver glowing soft red on a dark desk at night" loading="lazy" />
+              <figcaption><span>05</span> Assembled receiver in context, glowing in a dark room.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section class="slide closing">
         <div class="section-shell reveal">
           <img src="file.svg" alt="" class="closing-mark" />
@@ -368,3 +419,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
